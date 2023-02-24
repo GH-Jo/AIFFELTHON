@@ -62,7 +62,7 @@ dtypes: bool(4), float64(1), object(2)
 
 Step 2. DataSet Implementation
 
-Mask RNN용 Dataset 구현 특이사항
+Mask RCNN용 Dataset 구현 특이사항
 - 스크래치 처럼 작은 영역 10x10 pixel은 제외시키는 부분 구현
 - 학습할때 정상 이미지를 제공할지 여부를 선택하는 부분 구현
 - mask에서 polygon 영역을 추출하고 영역별 별도의 mask를 생성하는 부분 구항
